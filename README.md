@@ -41,7 +41,7 @@ Constantly seeking growth and improvement, I am currently diving deep into ``` R
 
 I'm always excited to collaborate and share knowledge with like-minded individuals.
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/klnlokeshkumar) - Here you can find my fine-tuned details.
-- Drop me a message at Klnkalluri143@gmail.com
+- Drop me a message at klnkalluri143@gmail.com
 - My History - [Resume](https://docs.google.com/document/d/1EBRc5PM5gSjfZtl9Cz0zMx3ovi1aElRD96-uaIG1wm8/edit?usp=sharing)
 
 Let's discuss code, design, or anything tech-related!
