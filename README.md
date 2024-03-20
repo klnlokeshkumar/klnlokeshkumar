@@ -1,4 +1,4 @@
-# Hello, World! 👋
+# Hello, World! 😊
 
 I'm Kalluri Laxmi Narashimha Lokesh Kumar, a frontend ninja on a mission to create visually stunning and user-friendly websites. Welcome to my little corner of the internet! Let's dive into some code magic together! 💻
 
