@@ -18,11 +18,6 @@ I am currently pursuing my Computer Science Bachelors degree pre-final year in G
 
 Constantly seeking growth and improvement, I am currently diving deep into ``` React js ``` to enhance my skills further and stay up-to-date with the latest trends in frontend development.
 
-## 👩‍💻 Achievements
-
-- Python Foundation [Infosys Springboard]
-- 30Days MasterClass completion on python FSWD [Pantech]
-- Learn [Codechef]                                             
 
 ## 👨‍💼 Internships & Experience
 
@@ -36,6 +31,11 @@ Constantly seeking growth and improvement, I am currently diving deep into ``` R
 
   Engaged in a virtual internship focused on Network Security as part of the AICTE initiative. Developed hands-on expertise in safeguarding networks and systems, enhancing my understanding of cybersecurity protocols and practices.
 
+## 👩‍💻 Certifications
+
+- Python Foundation [Infosys Springboard]
+- 30Days MasterClass completion on python FSWD [Pantech]
+- Learn [Codechef]                                             
 
 ## 💬 Let's Connect!
 
