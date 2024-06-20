@@ -1,6 +1,6 @@
-I'm Kalluri Laxmi Narashimha Lokesh Kumar(KLN), a frontend ninja on a mission to create visually stunning and user-friendly websites. Welcome to my little corner of the internet! Let's dive into some code magic together! 💻
+# About me...
 
-About me...
+I'm Kalluri Laxmi Narashimha Lokesh Kumar(KLN), a frontend ninja on a mission to create visually stunning and user-friendly websites. Welcome to my little corner of the internet! Let's dive into some code magic together! 💻
 
 I am currently pursuing my Computer Science Bachelors degree final year in Gayatri Vidya Parishad College of Engineering(A). I thrive on turning complex problems into elegant solutions through clean and efficient code. With a strong foundation in frontend technologies and a keen eye for design, I aim to create visually appealing and user-friendly applications that leave a lasting impact.
           
