@@ -13,7 +13,7 @@ nav {
     justify-content: space-between;
     font-size: 1.1rem;
     width: 100%;
-    background-color: azure;
+    background-color: rgb(246, 246, 246);
     color: black;
     /* box-shadow: 0 0 8px 10px #ffffff; */
 }
@@ -35,4 +35,17 @@ nav > div > ul {
     list-style: none;
     display: flex;
     gap: 2rem;
+}
+
+section {
+    margin: 5rem;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+    margin-top: 0;
+    padding-top: 5rem;
 }
