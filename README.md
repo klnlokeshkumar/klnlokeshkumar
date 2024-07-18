@@ -9,7 +9,7 @@ I am currently pursuing my Computer Science Bachelors degree final year in Gayat
 
 I'm always excited to collaborate and share knowledge with like-minded individuals.
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/klnlokeshkumar) - Here you can find my fine-tuned details.
-- Drop me a message at klnkalluri143@gmail.com
+- Drop me a message at klnlokeshkumar8@gmail.com
 - My History - [Resume](https://docs.google.com/document/d/1EBRc5PM5gSjfZtl9Cz0zMx3ovi1aElRD96-uaIG1wm8/edit?usp=sharing)
 
 Let's discuss code, design, or anything tech-related!
