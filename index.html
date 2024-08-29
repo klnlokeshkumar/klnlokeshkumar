@@ -2,66 +2,311 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K L N Lokesh Kumar</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img src="images/logo.png" alt="">
+      <p>KLN</p>
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <img src="images/logo.png" alt="">
+      <p>KLN</p>
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section-pic-container">
+      <img src="images/mine.png" class="image" />
+    </div>
+    <div class="section-text">
+      <p class="section-text-p1">Hello,I'm</p>
+      <h1 class="title">K L N Lokesh Kumar</h1>
+      <p class="section-text-p2">Full stack developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+          onclick="window.open('https://github.com/klnlokeshkumar/klnlokeshkumar-resume/blob/8b6f1852f4e884a0741f6a7bc7fab4fbc367b457/Kalluri_Laxmi_Narashimha_Lokesh_Kumar_Resume.pdf')">Download
+          CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact info</button>
+      </div>
+      <div id="socials-container">
+        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+        <a href="#"><i class="fa-brands fa-linkedin"></i> klnlokeshkumar</a>
+        <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+        <!-- <a href="#"><i class="fa-brands fa-pinterest"></i></a> -->
+      </div>
+    </div>
+
+    <!-- <i class="fa-solid fa-angle-down icon arrow" onclick="location.href='./#about'"></i> -->
+
+  </section>
+  <section id="about">
+    <p class="section-text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section-pic-container">
+        <img src="images/mine.png" alt="Profile pic" class="about-pic">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <!-- <div class="details-container">
+            <i class="fa-solid fa-user icon exp-icon"></i>
+            <h3>Experience</h3>
+            <p>2+ years <br />Full Stack Development</p>
+          </div> -->
+          <div class="details-container">
+            <i class="fa-regular fa-address-card icon edu-icon"></i>
+            <h3>Education</h3>
+            <p>B.Tech Bachelors Degree <br />G V P College of Engineering (A)</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p style="text-indent: 5%; text-align: justify;">Welcome! I'm Kalluri Laxmi Narashimha Lokesh Kumar, a Full
+            Stack Developer and B.Tech CSE student at Gayatri Vidya Parishad College of Engineering. I specialize in C,
+            C++, Python, and SQL, with a strong passion for problem-solving and continuous learning. I thrive in
+            collaborative environments and am eager to contribute to innovative projects. Let's create something amazing
+            together!</p>
+        </div>
+      </div>
+    </div>
+
+    <i class="fa-solid fa-angle-down icon arrow" onclick="location.href='./#skills'"></i>
+
+
+  </section>
+  <section id="skills">
+    <p class="section-text-p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>HTML</h1>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>CSS</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>Bootstrap</h1>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>Javascript</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>React Js</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>MongoDB</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>Node JS</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>Express JS</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h1>Git</h1>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="skill-sub-title">Programming Languages</h2>
+        <div class="article-container">
+          <article>
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h1>C</h1>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h1>C++</h1>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h1>Python</h1>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h1>SQL</h1>
+              <p>Experienced</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <i class="fa-solid fa-angle-down icon arrow" onclick="location.href='./#projects'"></i>
+
+
+
+  </section>
+  <section id="projects">
+    <p class="section-text-p1">Browse my Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container effect">
+            <img src="images/project1.png" alt="Project-1 Image" class="project-img">
+            <div class="overlay">
+              <div class="text">Currency Converter</div>
+            </div>
+          </div>
+          <h2 class="skill-sub-title project-title">Currency Converter</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/klnlokeshkumar/Currency-Converter'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://klnlokeshkumar.github.io/Currency-Converter/'">View Project</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container effect">
+            <img src="images/project1.png" alt="Project-1 Image" class="project-img">
+            <div class="overlay">
+              <div class="text">HackerRank Static Dashboard</div>
+            </div>
+          </div>
+          <h2 class="skill-sub-title project-title">HackerRank Static Dashboard</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/klnlokeshkumar/Hackerrank-static-dashboard'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://klnlokeshkumar.github.io/Hackerrank-static-dashboard/'">View Project</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container effect">
+            <img src="images/project1.png" alt="Project-1 Image" class="project-img">
+            <div class="overlay">
+              <div class="text">Portfolio</div>
+            </div>
+          </div>
+          <h2 class="skill-sub-title project-title">Portfolio</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/klnlokeshkumar/klnlokeshkumar'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#profile'">View Project</progress></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <i class="fa-solid fa-angle-down icon arrow" onclick="location.href='#contact'"></i>
+  </section>
+  <section id="contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <i class="fa-solid fa-envelope icon email-icon"></i>
+        <p><a href="mailto:klnlokeshkumar8@gmail.com">klnlokeshkumar8@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <i class="fa-brands fa-linkedin icon contact-icon"></i>
+        <p><a href="https://www.linkedin.com/in/klnlokeshkumar/">LinkedIN</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
     <nav>
-        <div>
-            <img src="profile-pic.png" alt="klnlokeshkumar profile pic">
-            <p>K L N Lokesh Kumar</p>
-        </div>
-        <div>
-            <ul>
-                <li>About Meow</li>
-                <li>Skill Suit</li>
-                <li>Experience</li>
-                <li>Works</li>
-                <li>Perks</li>
-                <li>Connect</li>
-            </ul>
-        </div>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <section class="intro">
-        <h2>Hello World !</h2>
-        <p>I'm Kalluri Laxmi Narashimha Lokesh Kumar, a frontend ninja on a mission to create visually stunning and user-friendly websites. <br>Welcome to my little corner of the internet! Let's dive into some code magic together! 💻</p>
-    </section>
-    <section>
-        <h2>About Meow.</h2>
-        <p>I am currently pursuing my Computer Science Bachelors degree pre-final year in Gayatri Vidya Parishad College of Engineering(A). 
-            <br>I thrive on turning complex problems into elegant solutions through clean and efficient code. 
-            <br>With a strong foundation in frontend technologies and a keen eye for design, I aim to create visually appealing and user-friendly applications that leave a lasting impact.
-        </p>
-    </section>
-    <section>
-        <h2>Skill Suit</h2>
-        <ul>
-            <li>Languages: Html, CSS, JavaScript</li>
-            <li>Tools: Git</li>
-            <li>Programming Languages: Python, Cpp, C, Sql</li>
-            <li>Soft Skills: Team Work, Adaptable</li>
-            <li>Others: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>AI ML AWS Virtual Internship [AICTE] May - July 2023</li>
-            <p>Delved into the realms of Artificial Intelligence, Machine Learning, and Amazon Web Services during an immersive virtual internship under the AICTE program. Explored cutting-edge technologies and applications in AI to enhance my skills and knowledge.</p>
-            <li>Network Security Associate Virtual Internship [AICTE] Jan - March 2024</li>
-            <p>Engaged in a virtual internship focused on Network Security as part of the AICTE initiative. Developed hands-on expertise in safeguarding networks and systems, enhancing my understanding of cybersecurity protocols and practices.</p>
-        </ul>
-    </section>
-    
-    <script src="script.js"></script>
+    <p>Copyright &#169; 2024 KLN All Rights Reserved</p>
+  </footer>
+  <script src="web.js"></script>
 </body>
 
 </html>
