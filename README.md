@@ -1,9 +1,8 @@
 # About me...
 
-I'm Kalluri Laxmi Narashimha Lokesh Kumar(KLN), a frontend ninja on a mission to create visually stunning and user-friendly websites. Welcome to my little corner of the internet! Let's dive into some code magic together! 💻
+I'm Kalluri Laxmi Narashimha Lokesh Kumar (KLN), a MERN full-stack developer on a mission to build dynamic and user-centric web applications. Welcome to my corner of the internet, where code meets creativity! Let’s dive into some full-stack magic together! 💻
 
-I am currently pursuing my Computer Science Bachelors degree final year in Gayatri Vidya Parishad College of Engineering(A). I thrive on turning complex problems into elegant solutions through clean and efficient code. With a strong foundation in frontend technologies and a keen eye for design, I aim to create visually appealing and user-friendly applications that leave a lasting impact.
-          
+I am currently in my final year of pursuing a Bachelor’s degree in Computer Science at Gayatri Vidya Parishad College of Engineering(A). With a solid foundation in both frontend and backend technologies, I excel at transforming complex challenges into seamless, efficient, and scalable solutions. My passion lies in crafting visually stunning, responsive, and user-friendly applications that make a lasting impact.
 
 ## 💬 Let's Connect!
 
