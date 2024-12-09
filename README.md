@@ -9,7 +9,9 @@ Currently in my final year of a Bachelor’s degree in Computer Science at Gayat
 I'm always excited to collaborate and share knowledge with like-minded individuals.
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/klnlokeshkumar) - Here you can find my fine-tuned details.
 - Drop me a message at klnlokeshkumar8@gmail.com
-- My History - [Resume](https://github.com/klnlokeshkumar/klnlokeshkumar-resume/blob/main/Kalluri_Laxmi_Narashimha_Lokesh_Kumar_Resume.pdf)
-- [Click here to view my Portfolio](https://klnlokeshkumar.github.io/klnlokeshkumar/)
+- My History - [My Resume](https://github.com/klnlokeshkumar/klnlokeshkumar-resume/blob/main/Kalluri_Laxmi_Narashimha_Lokesh_Kumar_Resume.pdf)
+<!-- - [Click here to view my Portfolio](https://klnlokeshkumar.github.io/klnlokeshkumar/) -->
 
 Let's discuss code, design, or anything tech-related!
+
+Learn to Lead.
