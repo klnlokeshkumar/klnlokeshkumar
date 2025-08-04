@@ -1,8 +1,10 @@
 # About me...
 
-I'm Kalluri Laxmi Narashimha Lokesh Kumar (KLN), an aspiring developer with a strong focus on C++, JavaScript, and React, on a mission to tackle complex problems with efficient and user-centric solutions. Welcome to my space, where code meets creativity! Let's explore the art of problem-solving together! 💻
+I am a Software Engineer at Capgemini and a 2025 graduate from Gayatri Vidya Parishad College of Engineering. I work mainly with Java Spring Boot, MERN stack, Python, and C++. I like solving problems and enjoy working with others as part of a team.
 
-Currently in my final year of a Bachelor’s degree in Computer Science at Gayatri Vidya Parishad College of Engineering(A), I have a solid foundation in web technologies and enjoy transforming challenges into seamless and scalable solutions. My passion is crafting responsive, visually engaging applications that create a meaningful impact.
+I believe in "LEARN TO LEAD" and value empathy in the workplace. Outside of work, I like to read books.
+
+Feel free to reach out to connect or talk about technology and books. - KLN
 
 ## 💬 Let's Connect!
 
